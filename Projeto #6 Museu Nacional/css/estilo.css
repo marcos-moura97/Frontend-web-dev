@@ -1,0 +1,294 @@
+/**** Estilo Customizado ****/
+
+
+/*** Configurações Gerais ***/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f4f2ec url(../imagens/fundo.png) repeat-x top;
+	font-family: "Trebouchet MS", Helvetica, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#principal {
+
+}
+
+
+/*** Configurações do Topo ***/
+
+header {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 33px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/** Configurações da Logo **/
+
+#logo {
+	width: 248px;
+	height: 21px;
+	background: url(../imagens/logo.png) no-repeat;
+}
+
+#logo h1 {
+	margin-top: -5px;
+	margin-left: -60000px;
+}
+
+
+/** Configurações da Barra de Navegação **/
+
+#barra-de-navegaçao {
+	margin-top: 8px;
+}
+
+#barra-de-navegaçao ul {
+	margin-right: 45px;
+}
+
+#barra-de-navegaçao li {
+	display: inline;
+	padding-bottom: 3px;
+	margin: 11px;
+}
+
+#barra-de-navegaçao a {
+	text-decoration: none;
+	color: orange;
+	font-size: 0.7em;
+	padding-bottom: 3px;
+}
+
+#barra-de-navegaçao a:hover {
+	color: green;
+	border-bottom: 1px solid #535858;
+}
+
+
+/*** Configurações da Navegação ***/
+
+nav {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 33px;
+	display: flex;
+}
+
+
+/** Configurações do Conteúdo Central **/
+
+article {
+	margin-right: 20px;
+}
+
+
+/** Configurações da Interação com o Usuário **/
+
+#interaçao {
+	display: flex;
+}
+
+
+/* Configurações da Interação com o Usuário (Video) */
+
+#interaçao-exposiçao {
+	margin: 0 30px 0 20px;
+}
+
+#interaçao-exposiçao h4 {
+	font-size: 0.85em;
+	color: green;
+	padding: 20px 0;
+}
+
+#interaçao-exposiçao ul {
+	list-style-type: disc;
+	margin-left: 40px;
+}
+
+#interaçao-exposiçao li {
+	margin-bottom: 5px;
+}
+
+#interaçao-exposiçao a {
+	text-decoration: none;
+	color: darkorange;
+	font-size: 0.8em;
+}
+
+#interaçao-exposiçao a:hover {
+	color: green;
+}
+
+
+/* Configurações da Interação com o Usuário (Mapa) */
+
+#interaçao-historia {
+
+}
+
+#interaçao-historia h4 {
+	font-size: 0.85em;
+	color: green;
+	padding: 20px 0;
+}
+
+#interaçao-historia p {
+	font-size: 0.8em;
+	margin-bottom: 20px;
+	line-height: 23px;
+}
+
+#interaçao-historia a {
+	font-size: 0.85em;
+	color: darkorange;
+	text-decoration: none;
+}
+
+#interaçao-historia a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+
+/** Configurações do Conteúdo Lateral **/
+
+aside {
+
+}
+
+
+/* Configurações do Conteúdo Lateral (Visita) */
+
+#visita {
+	background: #cdc8b1;
+	margin-top: 10px;
+}
+
+#visita form {
+	padding: 30px 25px;
+}
+
+#visita h4 {
+	color: #86521a;
+	font-size: 0.9em;
+	margin-bottom: 15px;
+}
+
+#visita span {
+	font-size: 0.8em;
+	margin-left: 10px;
+}
+
+#visita #data {
+	width: 90px;
+	border: 1px solid #ada484;
+}
+
+#visita #numero {
+	width: 30px;
+	border: 1px solid #ada484;
+}
+
+#visita #verificar-disponibilidade {
+	width: 300px;
+	height: 40px;
+	margin-top: 8px;
+	color: white;
+	background: #9b9271;
+	border: 1px solid #9b9271;
+	cursor: pointer;
+}
+
+
+/* Configurações do Conteúdo Lateral (Galeria) */
+
+#galeria {
+	background: #ebe7dd;
+}
+
+#galeria h4 {
+	color: #86521a;
+	font-size: 0.9em;
+	padding: 25px;
+}
+
+#imagens {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 40px;
+	justify-content: space-between;
+
+}
+
+#imagens a {
+	display: block;
+	background: url(../imagens/fundo-foto.png) no-repeat;
+	padding: 17px 15px 17px 15px;
+	margin-bottom: 10px;
+}
+
+#imagens img {
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+#galeria img {
+	margin-bottom: 20px;
+	background: url(../imagens/foto-fundo.jpg);
+}
+
+
+/** Configurações do Rodapé **/
+
+footer {
+	width: 85%;
+	margin: 0 auto;
+	height: 100px;
+	background: url(../imagens/fundo-rodape.png) repeat-x top;
+	margin-top: 20px;
+	text-align: center;
+	padding: 10px 0 30px 0;
+}
+
+footer ul {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+footer li {
+	display: inline;
+	padding-right: 15px;
+}
+
+footer a {
+	color: darkorange;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+footer a:hover {
+	color: green;
+}
+
+footer span {
+	font-size: 0.8em;
+}
+
+footer span a {
+	font-size: 1em;
+	padding: 0 5px;
+}

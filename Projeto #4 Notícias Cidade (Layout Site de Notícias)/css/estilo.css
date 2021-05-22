@@ -1,0 +1,300 @@
+/* Estilo Customizado */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+ 	font-family: "Trebouchet MS", Helvetica, sans-serif;
+ 	background: url(../imagens/fundo.png) repeat-x top;
+}
+
+img {
+	border: 1px solid #dfdfdf;
+}
+
+/*
+body.home #barra-horizontal a#home,
+body.brasil #barra-horizontal a#brasil,
+body.internacional #barra-horizontal a#internacional,
+body.fotos #barra-horizontal a#fotos {
+	background: #5D1011;
+}
+*/
+
+#principal {
+	margin: 0px auto;
+	width: 920px;
+}
+
+#cabeçalho {
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#logo {
+	border: none;
+	margin-top: 30px;
+	float: absolute;
+}
+
+#detalhe-topo {
+	float: right;
+}
+
+#barra-horizontal {
+	clear: left;
+	list-style: none;
+	margin-top: 25px;
+	text-align: center;
+	background: red;
+	width: 790px;
+}
+
+#navegaçao {
+	margin-top: 95px;
+}
+
+#barra-horizontal li {
+	margin: 10px;
+	padding: 10px;
+	display: inline;
+	background: url(imagens/divisor.png);
+}
+
+#barra-horizontal a {
+	padding: 5px;
+	line-height: 2em;
+	color: #fff;
+	text-decoration: none;
+}
+
+#barra-horizontal a:hover {
+	background: #fff;
+	color: red;
+}
+
+.brasil #conteudo-lateral {
+	width: 700px;
+}
+
+#entrevistas {
+	width: 200px;
+	float: left;
+}
+
+#entrevistas h2 {
+	padding: 10px;
+	background: #5D58E1;
+	color: white;
+	margin: 5px;
+	margin-left: 0px;
+}
+
+#entrevistas-pessoas,
+#entrevistas-news {
+	margin-top: 0px;
+	background: url(../imagens/fundo-caixa.png);
+}
+
+#entrevistas-pessoas ul {
+	background: white;
+	list-style: none;
+	margin: 20px 15px;
+	padding: 0px;
+}
+
+#entrevistas-pessoas li {
+	line-height: 40px;
+	margin: 5px;
+	padding: 3px;
+}
+
+#entrevistas-pessoas a{
+	text-decoration: none;
+	color: black;
+}
+
+#entrevistas-pessoas a:hover {
+	background: #C5C5C6;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+#entrevistas-news h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background: #5D58E1;
+}
+
+#entrevistas-news form {
+	background: white;
+	margin: 5px;
+}
+
+.email {
+	margin: 3px;
+	margin-left: 10px;
+	width: 150px;
+	height: 30px;
+}
+
+.cadastrar {
+	color: white;
+	margin-left: 10px;
+	width: 80px;
+	height: 50px;
+	background: red;
+	cursor: pointer;
+}
+
+#conteudo {
+	width: 700px;
+	float: right;
+	margin-bottom: 30px;
+}
+
+#conteudo-central {
+	width: 340px;
+	float: left;
+}
+
+#conteudo-central-entrevistas,
+#conteudo-central-mundo,
+#conteudo-lateral-destaque,
+#conteudo-lateral-noticias {
+	background: url(../imagens/fundo-caixa.png);
+}
+
+#conteudo-central-entrevistas img,
+#conteudo-lateral-destaque img {
+	width: 90%;
+	margin-left: 20px;
+}
+
+#conteudo-central-entrevistas h2,
+#conteudo-central-mundo h2,
+#conteudo-lateral-destaque h2,
+#conteudo-lateral-noticias h2 {
+	background: #5D58E1;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 0px;
+}
+
+#conteudo-central-entrevistas h4,
+#conteudo-lateral-destaque h4 {
+	background: red;
+	color: white;
+	width: 210px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#conteudo-lateral-destaque h4 {
+	width: 130px;
+}
+
+#conteudo-central-entrevistas p,
+#conteudo-lateral-destaque p {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#conteudo-central-entrevistas a,
+#conteudo-lateral-destaque a {
+	color: red;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#conteudo-central-entrevistas a:hover,
+#conteudo-lateral-destaque a:hover {
+	text-decoration: underline;
+}
+
+#conteudo-central-mundo,
+#conteudo-lateral-noticias {
+	margin-top: 25px;
+}
+
+#conteudo-central-mundo h2,
+#conteudo-lateral-noticias h2 {
+	margin-bottom: 30px;
+}
+
+#conteudo-central-mundo img,
+#conteudo-lateral-noticias img {
+	width: 30%;
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#conteudo-central-mundo a,
+#conteudo-lateral-noticias a {
+	color: #62B3F1;
+	text-decoration: none;
+}
+
+#conteudo-central-mundo a:hover,
+#conteudo-lateral-noticias a:hover {
+	text-decoration: underline;
+}
+
+#conteudo-lateral {
+	width: 340px;
+	float: right;
+}
+
+#rodape {
+	clear: both;
+	background: #5D58E1;
+	padding: 30px;
+	color: white;
+}
+
+/*Página Brasil*/
+
+#conteudo-lateral-noticias ul {
+	list-style: none;
+	background: #fff;
+	padding: 5px;
+	margin: 5px 10px;
+}
+
+#conteudo-lateral-noticias li {
+	padding: 10px;
+}
+
+#conteudo-lateral-noticias h4 {
+	color: #62B3F1;
+}
+
+/*Página Fotos*/
+
+.fotos #conteudo {
+	width: 920px;
+}
+
+.fotos #conteudo-central {
+	width: 920px;
+}
+
+.fotos #conteudo-central-mundo ul {
+	list-style-type: none;
+	background: #fff;
+	padding: 5px;
+	margin: 10px;
+}
+
+.fotos #conteudo-central-mundo li {
+	padding: 20px;
+}
+
+.fotos #conteudo-central-mundo h4 {
+	color: #62B3F1;
+}

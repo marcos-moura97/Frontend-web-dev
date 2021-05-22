@@ -1,0 +1,138 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #DAD5D5;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+	background: #fff;
+	color: #B6A94A;
+}
+
+h1 {
+	margin: 20px;
+	text-align: center;
+}
+
+h2 {
+
+	color: #B6A94A;
+}
+
+h4 {
+	background: #BAB9B8;
+	padding: 4px;
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 12px;
+}
+
+img {
+	margin-top: 20px;
+	width: 470px;
+}
+
+#principal {
+	/*border: 3px solid blue;*/
+	background: #B6A94A;
+	padding: 20px;
+	text-align: center;
+
+}
+
+#links-principais {
+	/*border: 3px solid violet;*/
+	text-align: center;
+}
+
+#oprincipal {
+	/*border: 5px solid red;*/
+	position: relative;
+	text-align: left;
+	width: 750px;
+	margin: 20px auto;
+	
+}
+
+#postagens {
+	width: 500px;
+	/*border: 2px solid orange;*/
+}
+
+#postagens1 {
+	background: white;
+	padding: 20px 15px;
+}
+
+#postagens2 {
+	background: white;
+	margin-top: 20px;
+	padding: 20px 15px;
+}
+
+#blocos {
+	/*border: 3px solid green;*/
+	position: absolute;
+	right: 0px;
+	top: 0px;	
+	width: 200px;
+}
+
+#postagens-recentes {
+	background: white;
+	padding: 15px;
+
+}
+
+#categoria {
+	margin-top: 20px;
+	background: white;
+	padding: 15px;
+
+}
+
+#rodape {
+	/*border: 3px solid purple;*/
+	margin-top: 20px;	
+	text-align: center;
+}
+
+.branco {
+	color: white;
+}
+
+.data-postagem {
+	font-size: 12px;
+}
+
+.links-principal {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+}
+
+.leia-mais {
+	color: #B6A94A;
+	text-decoration: none;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.categoria {
+	color: #B6A94A;
+	text-decoration: none;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.leia-mais:hover, .categoria:hover {
+	text-decoration: underline;
+	color: #B6A94A;
+}

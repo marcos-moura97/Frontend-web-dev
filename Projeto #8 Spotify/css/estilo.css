@@ -1,0 +1,164 @@
+/*
+<h1>Música para todos.</h1>
+    <p class="text-white mb-5">Milhões de músicas à sua escolha. E nem precisa de cartão de crédito.</p>
+    <a href="" class="btn arredondamento py-3 px-5">OBTENHA O SPOTIFY FREE</a>
+*/
+
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background: url(../img/capa.png),
+				url(../img/ruido.png),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0;
+	background: rgba(0,0,0,0.6);
+}
+
+#link {
+	color: white;
+}
+
+#link:hover {
+	color: #2DF659;
+}
+
+#borda {
+	color: white;
+	border-color: rgba(255,255,255,.1);
+}
+
+#celular h1 {
+	letter-spacing: -0.05px;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+.capa {
+	text-align: center;
+}
+
+.roxo {
+	color: #7c26f8;
+	letter-spacing: -4px;
+}
+
+h1 {
+	font-weight: 900;
+	letter-spacing: -5px;
+	color: white;
+
+}
+
+h2 {
+	font-weight: 600;
+	color: #7c26f8;
+}
+
+.arredondamento {
+	border-radius: 30px;
+	color: white;
+	background: #50CB6B;
+	transition: background 0.4s;
+}
+
+.arredondamento2 {
+	border: 2px solid white;
+	border-radius: 30px;
+	color: white;
+	transition: background 0.4s;
+}
+
+.arredondamento2:hover {
+	border: 2px solid white;
+	border-radius: 30px;
+	color: #50CB6B;
+	background: white;
+	transition: background 0.4s;
+}
+
+.arredondamento:hover {
+	color: white;
+	background: #01FF38;
+}
+
+.espaçamento {
+	letter-spacing: -0.05px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 5px;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-webkit-transform: rotate(30deg); /* cHROME, Safari e Opera */
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+footer {
+	background: black;
+	position: relative;
+}
+
+footer p a {
+	color: white;
+}
+
+footer p a:hover {
+	color: #2DF659;
+	text-decoration: none;
+}
+
+footer h6 {
+	color: #B4B2B4;
+}
+
+/******************************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	#home {
+		margin-top: 30px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+    	font-size: 3em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+    	font-size: 4em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+    	font-size: 5em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+    	font-size: 6em;
+    }
+}

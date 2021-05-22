@@ -1,0 +1,195 @@
+/**** Estilo Customizado - Página Chalé Hotel ****/
+
+
+/*** Configurações Gerais ***/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Trebouchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/bg.png);
+}
+
+ul {
+	margin: 0px;
+	list-style: none;
+}
+
+
+/*** Configurações do Topo ***/
+
+#principal {
+	margin: 0px auto;
+	margin-top: 10px;
+	width: 960px;
+}
+
+#topo {
+	background: url(../imagens/topo-imagem-principal.png) no-repeat;
+	width: 100%;
+	height: 250px;
+}
+
+#logo {
+	width: 151px;
+	float: left;
+	margin: 10px;
+}
+
+#lateral {
+	background: url(../imagens/topo-imagem-lateral.png);
+	width: 460px;
+	height: 250px;
+	margin-left: 500px;
+	overflow: hidden;
+}
+
+#conteudo-lateral {
+	width: 350px;
+	margin-left: 95px;
+	margin-top: 15px;
+}
+
+#cidades {
+	font-size: 0.7em;
+	width: 220px;
+	float: left;
+	margin-top: 7px;
+}
+
+#reservar {
+	background: #C7BF9A;
+	float: right;
+	margin-top: 3.5px;
+	margin-bottom: 3px;
+	margin-right: 2px;
+}
+
+#reservar a {
+	font-size: 0.97em;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+	color: white;
+}
+
+#barra-navegaçao {
+	width: 150px;
+	margin-top: 20px;
+	float: left;
+}
+
+#barra-navegaçao li {
+	margin: 15px;
+}
+
+#barra-navegaçao li a {
+	font-size: 0.8em;
+	padding: 8px;
+	text-decoration: none;
+	line-height: 10px;
+	color: black;
+}
+
+#barra-navegaçao li a:hover {
+	background: #C7BF9A;
+	color: white;
+}
+
+#descriçao-hotel {
+	width: 226px;
+	float: right;
+	margin-left: -60px;
+	margin-top: 20px;
+}
+
+
+/*** Configurações da Navegação ***/
+
+
+#navegaçao {
+	background: url(../imagens/bg-container.png) repeat-y right top;
+	height: 460px;
+}
+
+
+/** Configurações da Navegação do Texto **/
+
+
+#navegaçao-texto {
+	background: url(../imagens/bg-area-principal.png) repeat-x top;
+	width: 490px;
+	float: left;
+}
+
+#navegaçao-texto h3 {
+	color: #A79C6D;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+#navegaçao-texto p {
+	margin-left: 25px;
+	padding: 5px;
+}
+
+
+/** Configurações da Navegação dos Locais **/
+
+
+#navegaçao-locais {
+	background: url(../imagens/bg-area-lateral.png) repeat-x top;
+	width: 470px;
+	float: right;
+}
+
+#navegaçao-locais img {
+	width: 180px;
+	float: left;
+	margin-right: 10px;
+}
+
+#navegaçao-locais ul {
+	margin-top: 20px;
+	margin-left: 35px;
+	margin-right: 20px;
+}
+
+#navegaçao-locais li {
+	height: 130px;
+	padding: 5px;
+	margin-top: 5px;
+	border-bottom: 1px solid white;
+}
+
+#navegaçao-locais li:hover {
+	background: white;
+}
+
+#navegaçao-locais a {
+	text-decoration: none;
+	color: black;
+}
+
+#navegaçao-locais h4 {
+	color: #A79C6D;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#navegaçao-locais p {
+	font-size: 0.9em;
+}
+
+
+/*** Configurações do Rodapé ***/
+
+#rodape {
+	clear: both;
+	color: #908761;
+	margin-top: 10px;
+	background: white;
+}
